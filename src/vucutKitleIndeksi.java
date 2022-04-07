@@ -12,7 +12,7 @@ public class vucutKitleIndeksi {
         boy = input.nextDouble();
 
         System.out.print("Kilonuzu(KG) giriniz: ");
-        kilo = input.nextInt();
+        kilo = input.nextDoble();
 
         vucutKitleIndeksi = kilo / (boy * boy);
         System.out.println("Vucut kitle indeksi: " + vucutKitleIndeksi);
