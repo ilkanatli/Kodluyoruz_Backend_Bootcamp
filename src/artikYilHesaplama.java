@@ -9,14 +9,14 @@ public class artikYilHesaplama {
         if (yil >= 0) {
             if (yil % 4 == 0) {
                 if (yil % 100 != 0) {
-                    System.out.print(yil + " bir yili" + " artik yildir !");
+                    System.out.print(yil + " yili" + " bir artik yildir !");
                 } else if (yil % 100 == 0 && yil % 400 == 0) {
-                    System.out.print(yil + " bir yili" + " artik yil !");
+                    System.out.print(yil + " yili" + " bir artik yil !");
                 } else {
-                    System.out.print(yil + " bir yili" + " artik yil degildir !");
+                    System.out.print(yil + " yili" + " bir artik yil degildir !");
                 }
             } else {
-                System.out.print(yil + " bir yili" + " artik yil degildir !");
+                System.out.print(yil + " yili" + " artik bir yil degildir !");
             }
         } else {
             System.out.print("Gecerli bir yil giriniz !");
