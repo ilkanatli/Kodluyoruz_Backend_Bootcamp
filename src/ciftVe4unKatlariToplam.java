@@ -6,9 +6,9 @@ public class ciftVe4unKatlariToplam {
         Scanner input = new Scanner(System.in);
 
         do {
-            System.out.print(" Bir Sayi Giriniz: ");
+            System.out.print("Bir Sayi Giriniz: ");
             num = input.nextInt();
-            if (num % 2 == 0 && num % 4 == 0) {
+            if (num % 4 == 0) {
                 total += num;
             }
         } while (num % 2 == 0);
